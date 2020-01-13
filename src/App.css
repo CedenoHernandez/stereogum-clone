@@ -8,7 +8,7 @@
   width: 100%;
   border-bottom: solid 5px #000;
   height: 60px;
-  position: fixed;
+  /* position: fixed; */
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -43,6 +43,10 @@
   padding-right: 6rem;
 }
 
+.pageLinks a:hover {
+  color: #FF5254;
+}
+
 .siteLogos {
   color: #D6D6D6;
   border-left: solid 1px #D6D6D6;
@@ -62,4 +66,36 @@
 
 .search i {
   padding-right: 1rem;
+}
+
+/* Featured News */
+.featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.featured img {
+  width: 220px;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.scroll {
+  background: #E2E2E2;
+  border: 0;
+  width: 20px;
+  height: 220px;
+}
+
+.scroll:hover {
+  background-color: #FF5254;
+  cursor: pointer;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  background-color: #E2E2E2;
+  width: 10px;
+  color: #FFFFFF;
 }
