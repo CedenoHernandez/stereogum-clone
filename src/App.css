@@ -108,4 +108,67 @@
   background-color: #222222;
   margin-top: 500px; /*CHANGE THIS! This is only for testing*/
   height: 200px;
+  padding: 0 15rem; /* Not sure about this... */
+  padding-bottom: 1.2rem;
+}
+
+.footer-external-links {
+  display: flex;
+}
+
+.linksA i {
+  color: #ffff;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+.linksB {
+  padding-top: 2rem;
+  padding-left: 32rem; /* This WILL be a problem*/
+}
+
+.linksB a {
+  text-decoration: none;
+  color: #ffff;
+  align-content: right;
+}
+
+.footer-facebook {
+  background-color: #3b5998;
+}
+
+.footer-twitter {
+  background-color: #4099FF;
+}
+
+.footer-instagram {
+  background-color: #517fa3;
+}
+
+.footer-site-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #C4C4C4;
+  padding-right: 2rem;
+}
+
+.footer-p {
+  color: #C4C4C4;
+  font-size: 0.8rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #ffff;
+  padding-right: 2rem;
+  
+}
+
+.affils {
+  color: #838383;
+  font-size: 0.8rem;
 }
