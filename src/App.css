@@ -99,3 +99,13 @@
   width: 10px;
   color: #FFFFFF;
 }
+
+
+
+
+/* Footer */
+.footer {
+  background-color: #222222;
+  margin-top: 500px; /*CHANGE THIS! This is only for testing*/
+  height: 200px;
+}
