@@ -159,6 +159,18 @@
   padding-left: 0.3rem;
 }
 
+.page-selector {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.next-page {
+  margin-left: 6rem;
+}
+
 
 /* Most Viewed & Most Commented selector */
 .news-selector {

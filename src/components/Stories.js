@@ -118,6 +118,60 @@ class Stories extends Component {
           </div>
         </container>
 
+        <container className="stories">
+          <div className="news-img">
+            <img src="../images/Selena-gomez.jpg" alt="" className="story-img"/>
+          </div>
+          <div className="news-brief">
+            <h2>Selena Gomez's <i>Rare</i> Was Worth The Wait</h2>
+            <p>Rare is an accurate title for a Selena Gomez album. Gomez, the former Disney Channel teen actress turned pop superstar and tabloid fixation, is part…</p>
+            <div className="news-info-sm">
+              <a href="#" className="news-author">Chris DeVille</a>
+              <p className="news-date">| January 9, 2020 - 4:00 pm</p>
+              <p className="comment-count">45</p>
+              <i className="far fa-comment"></i>
+            </div>
+          </div>
+        </container>
+
+        <container className="stories">
+          <div className="news-img">
+            <img src="../images/Bright-Eyes.jpg" alt="" className="story-img"/>
+          </div>
+          <div className="news-brief">
+            <h2>Bright Eyes Tease Comeback</h2>
+            <p>Bright Eyes are back. Conor Oberst's massively popular and influential indie rock/folk/emo project has been inactive since touring behind 2011 swan song The People's Key.</p>
+            <div className="news-info-sm">
+              <a href="#" className="news-author">Chris DeVille</a>
+              <p className="news-date">| January 9, 2020 - 2:28 pm</p>
+              <p className="comment-count">134</p>
+              <i className="far fa-comment"></i>
+            </div>
+          </div>
+        </container>
+
+        <container className="stories">
+          <div className="news-img">
+            <img src="../images/Black-Lips.png" alt="" className="story-img"/>
+          </div>
+          <div className="news-brief">
+            <h2>Black Lips - "Rumbler"</h2>
+            <p>Black Lips sound revitalized on the singles from their imminent Black Lips Sing In A World That’s Falling Apart, "Odelia" and especially "Gentleman." But they're…</p>
+            <div className="news-info-sm">
+              <a href="#" className="news-author">Chris DeVille</a>
+              <p className="news-date">| January 9, 2020 - 12:56 pm</p>
+              <p className="comment-count">5</p>
+              <i className="far fa-comment"></i>
+            </div>
+          </div>
+        </container>
+
+        <div className="page-selector">
+            <p>1 2 3 4 ...</p>
+            <p className="next-page">Next <i className="fas fa-angle-right"></i></p>
+            
+        </div>
+
       </div>
     )
   }
