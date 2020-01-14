@@ -220,6 +220,15 @@
   padding-left: 0.3rem;
 }
 
+.story-num {
+  position: absolute;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-top: 3.2rem;
+  padding-left: 0.8rem;
+  color: #fff;
+}
+
 /* Signup Section */
 .signup {
   border-top: solid 1px #D6D6D6;
