@@ -100,8 +100,58 @@
   color: #FFFFFF;
 }
 
+/* Stories */
+.stories {
+  margin-top: 4rem;
+  width:45%;
+  align-content: center;
+  margin-left: 18rem;
+  display: flex;
+}
 
+.story-img {
+  width: 230px;
+  height: 151px;
+  padding-right: 1rem;
+}
 
+.news-brief h2 {
+  margin-top: 0;
+}
+
+.news-info {
+  display:flex;
+  padding-left: 2rem;
+}
+
+.news-info-sm {
+  display: flex;
+}
+
+.news-author {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #000;
+  font-weight: bold;
+  padding-right: 0.2rem;
+}
+
+.news-date {
+  color: #838383;
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+
+.comment-count {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 0;
+  padding-left: 9rem;
+}
+
+.fa-comment {
+  padding-left: 0.3rem;
+}
 
 /* Footer */
 .footer {
@@ -110,6 +160,10 @@
   height: 200px;
   padding: 0 15rem; /* Not sure about this... */
   padding-bottom: 1.2rem;
+}
+
+.footer a:hover {
+  color: #FF5254;
 }
 
 .footer-external-links {
