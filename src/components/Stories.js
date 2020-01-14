@@ -59,7 +59,7 @@ class Stories extends Component {
             <img src="../images/gordi-the-cost.jpg" alt="" className="story-img"/>
           </div>
           <div className="news-brief">
-            <h2>Gordi - "The Cost</h2>
+            <h2>Gordi - "The Cost"</h2>
             <p>The Australian Artist To Watch Gordi -- real name Sophie Payten -- released her debut album back in 2017, and today she's returned with a…</p>
             <div className="news-info-sm">
               <a href="#" className="news-author">James Rettig</a>

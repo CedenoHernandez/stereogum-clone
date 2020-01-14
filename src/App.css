@@ -78,14 +78,46 @@
 
 .featured img {
   width: 220px;
-  padding: 0 0.5rem 0 0.5rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.featured1 {
+  border-bottom: solid 6px #ff5254;
+}
+
+.featured2 {
+  border-bottom: solid 6px #8ad2a0;
+}
+
+.featured3 {
+  border-bottom: solid 6px #5cacc3;
+}
+
+.featured4 {
+  border-bottom: solid 6px #5763d4;
+}
+
+.featured-titles {
+  position: relative;
+}
+
+.featured-name {
+  position: absolute;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  bottom: 15px;
+  left: 15px;
+  padding-right: 1rem; /* necessary? */
 }
 
 .scroll {
   background: #E2E2E2;
   border: 0;
-  width: 20px;
-  height: 220px;
+  width: 18px;
+  height: 227px;
+  padding-right: 0.9rem;
 }
 
 .scroll:hover {
@@ -93,11 +125,13 @@
   cursor: pointer;
 }
 
-.fa-chevron-left,
-.fa-chevron-right {
-  background-color: #E2E2E2;
-  width: 10px;
+.scroll i {
   color: #FFFFFF;
+}
+
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
+  background-color: #FF5254; /*Fix this! */
 }
 
 /* Puts main sections into grid system */
