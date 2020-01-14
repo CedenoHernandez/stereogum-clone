@@ -160,6 +160,54 @@
 }
 
 
+/* Most Viewed & Most Commented selector */
+.news-selector {
+  margin-top: 3rem;
+  align-content: center;
+  text-align: center;
+}
+
+.news-selector a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #B2B2B2;
+  padding: 0.3rem;
+}
+
+.news-selector i {
+  color: #B2B2B2;
+}
+
+.fa-comments {
+  border-left: solid 1px #B2B2B2;
+  padding-left: 0.4rem;
+}
+
+#most-viewed {
+  color: #FF5254; /*BE CAREFUL THIS TEMP COSMETIC */
+}
+
+/* Most Viewed Stories */
+.pop-story {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+}
+
+.pop-story img {
+  height: 100px;
+  width: 150px;
+}
+
+.pop-story a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #000;
+  padding-left: 0.3rem;
+}
+
 /* Signup Section */
 .signup {
   border-top: solid 1px #D6D6D6;
