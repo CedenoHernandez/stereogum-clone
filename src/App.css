@@ -103,7 +103,7 @@
 /* Puts main sections into grid system */
 .main-page {
   display: grid;
-  width: 85%;
+  width: 84%;
   grid-template-columns: 3fr 1fr;
 }
 
@@ -111,7 +111,7 @@
 .stories {
   margin-top: 3rem;
   align-content: center;
-  margin-left: 18rem;
+  margin-left: 17rem;
   display: flex;
 }
 
@@ -165,13 +165,14 @@
   border-top: solid 1px #D6D6D6;
   border-bottom: solid 1px #D6D6D6;
   margin-top: 3rem;
-  height: 200px;
+  height: 180px;
   margin-left: 1rem;
 }
 
 .signup h2 {
   text-transform: uppercase;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .signup form input {
@@ -189,6 +190,26 @@
 
 .signup-p {
   font-size: 0.8rem;
+}
+
+/* Heavy Rotation */
+.heavy-rotation {
+  margin-left: 1rem;
+}
+
+.heavy-rotation h2 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.heavy-rotation i {
+  color: #D2D2D2;
+}
+
+.rotation-img {
+  height: 146px;
+  width: 146px;
+  padding-right: 0.2rem;
 }
 
 /* Footer */
