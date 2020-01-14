@@ -86,6 +86,38 @@ class Stories extends Component {
           </div>
         </container>
 
+        <container className="stories">
+          <div className="news-img">
+            <img src="../images/mac-miller.jpg" alt="" className="story-img"/>
+          </div>
+          <div className="news-brief">
+            <h2>Mac Miller - "Good News"</h2>
+            <p>Yesterday, Mac Miller's family announced that a posthumous album from the musician was on the way. Circles is due out next Friday (1/17), and a…</p>
+            <div className="news-info-sm">
+              <a href="#" className="news-author">James Rettig</a>
+              <p className="news-date">| January 9, 2020 - 6:12 pm</p>
+              <p className="comment-count">21</p>
+              <i className="far fa-comment"></i>
+            </div>
+          </div>
+        </container>
+
+        <container className="stories">
+          <div className="news-img">
+            <img src="../images/abbey-road.jpg" alt="" className="story-img"/>
+          </div>
+          <div className="news-brief">
+            <h2>Abbey Road Was the Best-Selling Vinyl of the Decade</h2>
+            <p>People are still coming together right now over the Beatles. As 2019 drew to a close, so did the entire decade, and according to Nielsen…</p>
+            <div className="news-info-sm">
+              <a href="#" className="news-author">Peter Helman</a>
+              <p className="news-date">| January 9, 2020 - 5:52 pm</p>
+              <p className="comment-count">79</p>
+              <i className="far fa-comment"></i>
+            </div>
+          </div>
+        </container>
+
       </div>
     )
   }
