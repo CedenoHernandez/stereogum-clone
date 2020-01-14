@@ -100,10 +100,16 @@
   color: #FFFFFF;
 }
 
+/* Puts main sections into grid system */
+.main-page {
+  display: grid;
+  width: 85%;
+  grid-template-columns: 3fr 1fr;
+}
+
 /* Stories */
 .stories {
-  margin-top: 4rem;
-  width:45%;
+  margin-top: 3rem;
   align-content: center;
   margin-left: 18rem;
   display: flex;
@@ -153,10 +159,42 @@
   padding-left: 0.3rem;
 }
 
+
+/* Signup Section */
+.signup {
+  border-top: solid 1px #D6D6D6;
+  border-bottom: solid 1px #D6D6D6;
+  margin-top: 3rem;
+  height: 200px;
+  margin-left: 1rem;
+}
+
+.signup h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.signup form input {
+  text-transform: uppercase;
+  padding: 0.3rem 2.2rem;
+}
+
+.signup-btn {
+  background-color:#000;
+  border: none;
+  color: #ffff;
+  padding: 0.4rem;
+  margin-left: 0.2rem;
+}
+
+.signup-p {
+  font-size: 0.8rem;
+}
+
 /* Footer */
 .footer {
   background-color: #222222;
-  margin-top: 500px; /*CHANGE THIS! This is only for testing*/
+  margin-top: 3rem;
   height: 200px;
   padding: 0 15rem; /* Not sure about this... */
   padding-bottom: 1.2rem;
