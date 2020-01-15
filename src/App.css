@@ -6,10 +6,11 @@
   align-items: center;
   z-index: 1;
   width: 100%;
+  background-color: #fff;
   border-bottom: solid 5px #000;
   height: 60px;
-  /* position: fixed; */
-  align-items: center;
+  position: fixed;
+  align-items: absolute;
   justify-content: center;
   text-align: center;
 }
@@ -59,6 +60,7 @@
 
 .siteLogos i:hover {
   cursor: pointer;
+  color: #202020;
 }
 
 .search {
@@ -75,9 +77,10 @@
 /* Featured News */
 .featured {
   display: flex;
+  position: static;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
+  padding-top: 6rem;
 }
 
 .featured img {
@@ -136,6 +139,14 @@
 .fa-chevron-left:hover,
 .fa-chevron-right:hover {
   background-color: #FF5254; /*Fix this! */
+}
+
+#display1 {
+  display: block;
+}
+
+#display2 {
+  display: none; /*default*/
 }
 
 /* Puts main sections into grid system */
