@@ -4,7 +4,7 @@ class NewsSelector extends Component {
 
   render() {
     return(
-      <div>
+      <div className="side-news">
         <div className="news-selector">
           <i className="fas fa-chart-line" id="most-viewed"></i>
           <a href="#" id="most-viewed">MOST VIEWED</a>
