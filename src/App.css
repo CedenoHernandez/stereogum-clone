@@ -284,6 +284,15 @@
   color: #fff;
 }
 
+.story-num:hover {
+  color: #FF5254;
+  cursor: pointer;
+}
+
+.pop-story a:hover {
+  color: #FF5254;
+}
+
 /* Signup Section */
 .signup {
   border-top: solid 1px #D6D6D6;
