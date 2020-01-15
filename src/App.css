@@ -48,13 +48,17 @@
 }
 
 .siteLogos {
-  color: #D6D6D6;
   border-left: solid 1px #D6D6D6;
   border-right: solid 1px #D6D6D6;
 }
 
-.siteLogos i {
-  padding: 0.5rem;
+.siteLogos a {
+  color: #D6D6D6;
+  padding: 0.6rem;
+}
+
+.siteLogos i:hover {
+  cursor: pointer;
 }
 
 .search {
