@@ -12,15 +12,63 @@ class ListsContent extends Component {
         
         <container className="stories">
           <div className="news-img">
-            <img src="../images/Gigaton.png" alt="" className="story-img"/>
+            <img src="../images/best-jazz.png" alt="" className="story-img"/>
           </div>
           <div className="news-brief">
-            <h2>Pearl Jam Announces New Album <i>Gigaton</i></h2>
-            <p>Pearl Jam have been talking about a new album for what feels like forever, and last week they began teasing something called "Gigaton" via augmented…</p>
+            <h2>The 20 Best Jazz Albums Of The 2010s</h2>
+            <p>Where jazz is concerned, the 2010s could be divided almost precisely in half: BK (Before Kamasi) and AK (After Kamasi). The burly LA saxophonist's triple…</p>
+            <div className="news-info-sm">
+              <a href="#" className="news-author">Phil Freeman</a>
+              <p className="news-date">| January 9, 2020 - 1:22 pm</p>
+              <p className="comment-count">27</p>
+              <i className="far fa-comment"></i>
+            </div>
+          </div>
+        </container>
+
+        <container className="stories">
+          <div className="news-img">
+            <img src="../images/best-comments.jpg" alt="" className="story-img"/>
+          </div>
+          <div className="news-brief">
+            <h2>The 50 Best Stereogum Comments Of 2019 - And Best Of The 2010s</h2>
+            <p>Another "Auld Lang Syne" is imminent, which means it’s time to review the year in Stereogum comments. We’ve had so much to comment on in…</p>
+            <div className="news-info-sm">
+              <a href="#" className="news-author">Scott Lapatine</a>
+              <p className="news-date">| Dec. 31, 2019 - 10:03 am</p>
+              <p className="comment-count">158</p>
+              <i className="far fa-comment"></i>
+            </div>
+          </div>
+        </container>
+
+        <container className="stories">
+          <div className="news-img">
+            <img src="../images/my-chemical-romance.jpg" alt="" className="story-img"/>
+          </div>
+          <div className="news-brief">
+            <h2>The 10 Best My Chemical Romance Songs</h2>
+            <p>When Gerard Way watched the Twin Towers go down from Hudson River Pier, he, like many people at the time, had a revelation: Life is…</p>
+            <div className="news-info-sm">
+              <a href="#" className="news-author">Margaret Farrell</a>
+              <p className="news-date">| Dec. 19, 2019 - 10:00 am</p>
+              <p className="comment-count">54</p>
+              <i className="far fa-comment"></i>
+            </div>
+          </div>
+        </container>
+
+        <container className="stories">
+          <div className="news-img">
+            <img src="../images/anticipated2020.png" alt="" className="story-img"/>
+          </div>
+          <div className="news-brief">
+            <h2>The 101 Most Anticipated Albums Of 2020</h2>
+            <p>With the end of the decade rapidly approaching, 2019 has been an especially backward-looking year. Here at Stereogum, we examined the entirety of the 2010s…</p>
             <div className="news-info-sm">
               <a href="#" className="news-author">Chris DeVille</a>
-              <p className="news-date">| January 13, 2020 - 1:22 pm</p>
-              <p className="comment-count">62</p>
+              <p className="news-date">| Dec. 18, 2019 - 11:39 am</p>
+              <p className="comment-count">259</p>
               <i className="far fa-comment"></i>
             </div>
           </div>
@@ -28,15 +76,15 @@ class ListsContent extends Component {
 
         <container className="stories">
           <div className="news-img">
-            <img src="../images/us-girls-heavy-light-cover.jpg" alt="" className="story-img"/>
+            <img src="../images/best-hardcore-albums.jpg" alt="" className="story-img"/>
           </div>
           <div className="news-brief">
-            <h2>U.S. Girls - "Overtime"</h2>
-            <p>Just under two years ago, Meg Remy released In A Poem Unlimited, her sixth album as U.S. Girls. While the project had already found devout…</p>
+            <h2>The 10 Best Hardcore Albums Of 2019</h2>
+            <p>There have been long stretches this past year when I didn't want to listen to anything other than hardcore -- where music didn't sound right…</p>
             <div className="news-info-sm">
-              <a href="#" className="news-author">Ryan Leas</a>
-              <p className="news-date">| January 13, 2020 - 10:03 am</p>
-              <p className="comment-count">20</p>
+              <a href="#" className="news-author">Tom Breihan</a>
+              <p className="news-date">| Dec. 13, 2019 - 10:43 am</p>
+              <p className="comment-count">75</p>
               <i className="far fa-comment"></i>
             </div>
           </div>
@@ -44,47 +92,15 @@ class ListsContent extends Component {
 
         <container className="stories">
           <div className="news-img">
-            <img src="../images/dan-deacon.jpg" alt="" className="story-img"/>
+            <img src="../images/best-tweets.jpg" alt="" className="story-img"/>
           </div>
           <div className="news-brief">
-            <h2>Dan Deacon - "Become a Mountain"</h2>
-            <p>At the end of the month, Dan Deacon is releasing a new album, Mystic Familiar, his first proper full-length album since 2015's Gliss Rifter after…</p>
-            <div className="news-info-sm">
-              <a href="#" className="news-author">James Rettig</a>
-              <p className="news-date">| January 13, 2020 - 10:00 am</p>
-              <p className="comment-count">15</p>
-              <i className="far fa-comment"></i>
-            </div>
-          </div>
-        </container>
-
-        <container className="stories">
-          <div className="news-img">
-            <img src="../images/gordi-the-cost.jpg" alt="" className="story-img"/>
-          </div>
-          <div className="news-brief">
-            <h2>Gordi - "The Cost"</h2>
-            <p>The Australian Artist To Watch Gordi -- real name Sophie Payten -- released her debut album back in 2017, and today she's returned with a…</p>
-            <div className="news-info-sm">
-              <a href="#" className="news-author">James Rettig</a>
-              <p className="news-date">| January 12, 2020 - 11:39 am</p>
-              <p className="comment-count"></p>
-              <i className="far fa-comment"></i>
-            </div>
-          </div>
-        </container>
-
-        <container className="stories">
-          <div className="news-img">
-            <img src="../images/rush-drummer.jpg" alt="" className="story-img"/>
-          </div>
-          <div className="news-brief">
-            <h2>Dave Grohl Shares Eulogy For Neil Peart</h2>
-            <p>Rush drummer Neil Peart passed away this week due to complications from brain cancer. And now another famous drummer, Dave Grohl of Nirvana and Foo…</p>
+            <h2>Basking In The Glow: The 36 Best Music Tweets From 2019</h2>
+            <p>Tweets! At the end of every year, for the past four years, we have collected memorable music tweets from artists and musicians into a handy…</p>
             <div className="news-info-sm">
               <a href="#" className="news-author">Peter Helman</a>
-              <p className="news-date">| January 11, 2020 - 10:43 am</p>
-              <p className="comment-count">4</p>
+              <p className="news-date">| Dec. 11, 2019 - 6:12 pm</p>
+              <p className="comment-count">52</p>
               <i className="far fa-comment"></i>
             </div>
           </div>
@@ -92,15 +108,15 @@ class ListsContent extends Component {
 
         <container className="stories">
           <div className="news-img">
-            <img src="../images/mac-miller.jpg" alt="" className="story-img"/>
+            <img src="../images/Podcasts.png" alt="" className="story-img"/>
           </div>
           <div className="news-brief">
-            <h2>Mac Miller - "Good News"</h2>
-            <p>Yesterday, Mac Miller's family announced that a posthumous album from the musician was on the way. Circles is due out next Friday (1/17), and a…</p>
+            <h2>The 15 Best Music Podcasts Of 2019</h2>
+            <p>If you’re looking for the stories behind your favorite songs, but don’t have time to read, say, Flea’s 400-page memoir or even all the liner…</p>
             <div className="news-info-sm">
-              <a href="#" className="news-author">James Rettig</a>
-              <p className="news-date">| January 9, 2020 - 6:12 pm</p>
-              <p className="comment-count">21</p>
+              <a href="#" className="news-author">Melissa Locker</a>
+              <p className="news-date">| Dec. 11, 2019- 5:52 pm</p>
+              <p className="comment-count">68</p>
               <i className="far fa-comment"></i>
             </div>
           </div>
@@ -108,15 +124,15 @@ class ListsContent extends Component {
 
         <container className="stories">
           <div className="news-img">
-            <img src="../images/abbey-road.jpg" alt="" className="story-img"/>
+            <img src="../images/best-rap-albums.jpg" alt="" className="story-img"/>
           </div>
           <div className="news-brief">
-            <h2>Abbey Road Was the Best-Selling Vinyl of the Decade</h2>
-            <p>People are still coming together right now over the Beatles. As 2019 drew to a close, so did the entire decade, and according to Nielsen…</p>
+            <h2>The 10 Best Rap Albums Of 2019</h2>
+            <p>At the end of 2019, rap is the most popular form of music in America, and maybe in the entire world. We know this. The…</p>
             <div className="news-info-sm">
-              <a href="#" className="news-author">Peter Helman</a>
-              <p className="news-date">| January 9, 2020 - 5:52 pm</p>
-              <p className="comment-count">79</p>
+              <a href="#" className="news-author">Tom Breihan</a>
+              <p className="news-date">| Dec. 10, 2019 - 4:00 pm</p>
+              <p className="comment-count">109</p>
               <i className="far fa-comment"></i>
             </div>
           </div>
@@ -124,15 +140,15 @@ class ListsContent extends Component {
 
         <container className="stories">
           <div className="news-img">
-            <img src="../images/Selena-gomez.jpg" alt="" className="story-img"/>
+            <img src="../images/2019Favorites.png" alt="" className="story-img"/>
           </div>
           <div className="news-brief">
-            <h2>Selena Gomez's <i>Rare</i> Was Worth The Wait</h2>
-            <p>Rare is an accurate title for a Selena Gomez album. Gomez, the former Disney Channel teen actress turned pop superstar and tabloid fixation, is part…</p>
+            <h2>Stereogum's 100 Favorite Songs Of 2019</h2>
+            <p>Within the macro tradition that is year-end list season, we at Stereogum have carved out our own micro tradition: Every December, instead of publishing a…</p>
             <div className="news-info-sm">
-              <a href="#" className="news-author">Chris DeVille</a>
-              <p className="news-date">| January 9, 2020 - 4:00 pm</p>
-              <p className="comment-count">45</p>
+              <a href="#" className="news-author">Stereogum</a>
+              <p className="news-date">| Dec. 10, 2019 - 2:28 pm</p>
+              <p className="comment-count">192</p>
               <i className="far fa-comment"></i>
             </div>
           </div>
@@ -140,31 +156,15 @@ class ListsContent extends Component {
 
         <container className="stories">
           <div className="news-img">
-            <img src="../images/Bright-Eyes.jpg" alt="" className="story-img"/>
+            <img src="../images/jazz.png" alt="" className="story-img"/>
           </div>
           <div className="news-brief">
-            <h2>Bright Eyes Tease Comeback</h2>
-            <p>Bright Eyes are back. Conor Oberst's massively popular and influential indie rock/folk/emo project has been inactive since touring behind 2011 swan song The People's Key.</p>
+            <h2>The 10 Best Jazz Albums Of 2019</h2>
+            <p>This wasn’t a year of radical transformation in the world of jazz. There was no single breakout star, and no explosion like the sudden realization…</p>
             <div className="news-info-sm">
-              <a href="#" className="news-author">Chris DeVille</a>
-              <p className="news-date">| January 9, 2020 - 2:28 pm</p>
-              <p className="comment-count">134</p>
-              <i className="far fa-comment"></i>
-            </div>
-          </div>
-        </container>
-
-        <container className="stories">
-          <div className="news-img">
-            <img src="../images/Black-Lips.png" alt="" className="story-img"/>
-          </div>
-          <div className="news-brief">
-            <h2>Black Lips - "Rumbler"</h2>
-            <p>Black Lips sound revitalized on the singles from their imminent Black Lips Sing In A World That’s Falling Apart, "Odelia" and especially "Gentleman." But they're…</p>
-            <div className="news-info-sm">
-              <a href="#" className="news-author">Chris DeVille</a>
-              <p className="news-date">| January 9, 2020 - 12:56 pm</p>
-              <p className="comment-count">5</p>
+              <a href="#" className="news-author">Phil Freeman</a>
+              <p className="news-date">| Dec. 9, 2019 - 12:56 pm</p>
+              <p className="comment-count">59</p>
               <i className="far fa-comment"></i>
             </div>
           </div>
