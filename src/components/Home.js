@@ -10,23 +10,23 @@ import Footer from './Footer';
 function Home() {
   return(
     <div className="App">
-              <div>
-                <Navbar />
-              </div>
-              <div>
-                <Featured />
-              </div>
-              <div className="main-page">
-                <Stories />
-                  <div>
-                  <NewsSelector />
-                  <SignUp />
-                  <HeavyRotation />
-                  </div>
-              </div>
-              <Footer />
-             </div>
-  )
+      <div>
+        <Navbar />
+      </div>
+      <div>
+        <Featured />
+      </div>
+      <div className="main-page">
+        <Stories />
+          <div>
+          <NewsSelector />
+          <SignUp />
+          <HeavyRotation />
+          </div>
+      </div>
+      <Footer />
+      </div>
+    )
 }
 
 export default Home;
