@@ -468,6 +468,17 @@
   font-size: 0.8rem;
 }
 
+/* New Music page */
+.divider {
+  padding-top: 6rem;
+}
 
+.page-title {
+  font-size: 1rem;
+  color: #FF5254;
+  text-transform: uppercase;
+  margin-left: 3rem;
+  border-bottom: 1px solid #E2E2E2;
+}
 
 /* Media Queries */

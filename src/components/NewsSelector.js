@@ -25,7 +25,7 @@ class NewsSelector extends Component {
 
   render() {
     return(
-      <div className="side-news">
+      <div className="side-news" id="side-news-sub">
 
         <div className="news-selector">
           <i className="fas fa-chart-line" id="most-viewed"></i>

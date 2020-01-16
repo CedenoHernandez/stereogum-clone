@@ -27,7 +27,7 @@ class Navbar extends Component {
       <div className="navbar">
         <div>
           <img src="../images/stereogumlogo.jpg" className="logo" alt=""/>
-          <a href="#" id="siteTitle">Stereogum</a>
+          <a href="/" id="siteTitle">Stereogum</a>
         </div>
         <div className="pageLinks">
           <a href="#" className="columns"onClick={this.handleClick}>Columns <i className="fas fa-caret-down"></i></a>
@@ -76,7 +76,7 @@ class Navbar extends Component {
 
             </table>
           </div>
-          <a href="#">New Music</a>
+          <a href="/newmusic">New Music</a>
           <a href="#">Lists</a>
           <a href="#">Videos</a>
         </div>  
