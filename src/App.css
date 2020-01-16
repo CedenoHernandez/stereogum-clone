@@ -249,6 +249,8 @@
   text-align: center;
   justify-content: center;
   font-size: 1.3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .next-page {
