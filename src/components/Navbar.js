@@ -70,7 +70,7 @@ class Navbar extends Component {
               </tr>
               <tr>
                 <td>Gotcha Covered</td>
-                <td>The 5 Best Songs of the Week</td>
+                <td>5 Best Songs of the Week</td>
                 <td></td>
               </tr>
 
