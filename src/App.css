@@ -285,10 +285,18 @@
 }
 
 #most-viewed {
-  color: #FF5254; /*BE CAREFUL THIS TEMP COSMETIC */
+  color: #FF5254; /*default on load */
 }
 
-/* Most Viewed Stories */
+/* Most Viewed/Commented Stories */
+.most-viewed-stories {
+  display: block; /*default on load*/
+}
+
+.most-commented-stories {
+  display: none;
+}
+
 .pop-story {
   margin-top: 1rem;
   margin-left: 1rem;
