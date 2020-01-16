@@ -7,7 +7,7 @@ class ListsContent extends Component {
       <div id="new-music">
 
         <div className="page-title">
-          <h1>List</h1>
+          <h1>Lists</h1>
         </div>
         
         <container className="stories">

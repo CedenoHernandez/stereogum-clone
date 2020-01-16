@@ -196,7 +196,7 @@
   margin-left: 0rem;
   display: flex;
   padding-left: 3rem;
-  padding-right: 0.5rem;
+  padding-right: 1rem;
 }
 
 .story-img {
@@ -482,5 +482,11 @@
   margin-left: 3rem;
   border-bottom: 1px solid #E2E2E2;
 }
+
+/* Make all pictures fit nicely within exact dimensions*/
+img {
+  object-fit: cover;
+}
+
 
 /* Media Queries */
