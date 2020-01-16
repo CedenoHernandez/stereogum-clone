@@ -23,7 +23,7 @@ class Footer extends Component {
           <div className="footer-site-links">
             <a href="#">Features</a>
             <a href="/newmusic">Songs</a>
-            <a href="#">Videos</a>
+            <a href="/videos">Videos</a>
             <a href="/lists">Lists</a>
             <a href="#">Contact Us</a>
           </div>

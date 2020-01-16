@@ -78,7 +78,7 @@ class Navbar extends Component {
           </div>
           <a href="/newmusic">New Music</a>
           <a href="/lists">Lists</a>
-          <a href="#">Videos</a>
+          <a href="/videos">Videos</a>
         </div>  
 
         <div className="siteLogos">
