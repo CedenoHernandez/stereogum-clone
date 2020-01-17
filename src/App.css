@@ -75,13 +75,6 @@
   padding-right: 1rem;
 }
 
-
-/*
-.pageLinks:hover .dropdown {
-  display: block;
-}
-*/
-
 .dropdown {
   display: none; /*hides on default*/
   position: absolute;
@@ -171,13 +164,20 @@
   color: #FFFFFF;
 }
 
-#display1 {
+.tile-1,
+.tile-2,
+.tile-3,
+.tile-4 {
   display: block;
 }
 
-#display2 {
-  display: none; /*default*/
+.tile-5,
+.tile-6,
+.tile-7,
+.tile-8 {
+  display: none; /*hides on page load*/
 }
+
 
 /* Puts main sections into grid system */
 .main-page {
