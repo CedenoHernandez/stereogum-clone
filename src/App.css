@@ -164,7 +164,16 @@
   color: #FFFFFF;
 }
 
-.tile-1,
+/* #display1 {
+  display: block;
+}
+*/
+
+#display2 {
+  display: none;
+}
+
+/* .tile-1,
 .tile-2,
 .tile-3,
 .tile-4 {
@@ -175,8 +184,8 @@
 .tile-6,
 .tile-7,
 .tile-8 {
-  display: none; /*hides on page load*/
-}
+  display: none;
+} */
 
 
 /* Puts main sections into grid system */
