@@ -532,6 +532,7 @@ img {
 
   .pageLinks {
     padding-right: 0rem;
+    padding-top: 0.2rem;
   }
 
   .pageLinks a {
@@ -545,6 +546,8 @@ img {
   .siteLogos {
     border-left: none;
     border-right: none;
+    margin-top: 0.2rem;
+    padding-top: 0.1rem;
   }
 
   .siteLogos a {
@@ -651,7 +654,12 @@ img {
   }
 
   .signup form {
-    padding-top: 0.5rem;
+    padding-top: 0.7rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0.5rem;
   }
 
   .heavy-rotation {
@@ -670,7 +678,6 @@ img {
   }
   
   .sub-footer {
-    width: 80%;
     min-width: 100%;
     margin: 0 auto;
   }
@@ -693,9 +700,10 @@ img {
   }
   
   .linksB {
-    padding-top: 2rem;
+    padding-top: 1.3rem;
     margin-left: auto;
     margin-right: 0;
+  
   }
   
   .linksB a {
