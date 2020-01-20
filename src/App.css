@@ -164,28 +164,9 @@
   color: #FFFFFF;
 }
 
-/* #display1 {
-  display: block;
-}
-*/
-
 #display2 {
   display: none;
 }
-
-/* .tile-1,
-.tile-2,
-.tile-3,
-.tile-4 {
-  display: block;
-}
-
-.tile-5,
-.tile-6,
-.tile-7,
-.tile-8 {
-  display: none;
-} */
 
 
 /* Puts main sections into grid system */
@@ -501,3 +482,271 @@ img {
 
 
 /* Media Queries */
+@media (min-width: 1px) and (max-width: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+  }
+
+  .navbar {
+    align-items: left;
+    display: block;
+    min-width: 100%;
+    z-index: 1;
+    background-color: #222222;
+    border-bottom: solid 5px #000;
+    height:90px;
+    top: 0;
+    position: absolute;
+    padding: 0;
+    padding-top: 0.5rem;
+    margin: 0;
+  }
+
+  .navbar ul {
+    display: flex;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0;
+  }
+
+  .logo {
+    width: 25px;
+    padding-left: 0rem; /*careful*/
+    vertical-align: text-bottom;
+  }
+
+  #siteTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    padding-left: 0.4rem;
+  }
+
+  .pageLinks {
+    padding-right: 0rem;
+  }
+
+  .pageLinks a {
+    padding: 0.5rem;
+  }
+
+  .pageLinks a:hover {
+    color: #FF5254;
+  }
+
+  .siteLogos {
+    border-left: none;
+    border-right: none;
+  }
+
+  .siteLogos a {
+    color: #fff;
+    padding: 0.6rem;
+  }
+
+  .siteLogos i:hover {
+    cursor: pointer;
+    color: #202020;
+  }
+
+  .search {
+   display: none;
+  }
+
+  .dropdown {
+    display: none; /*hides on default*/
+    top: 100px;
+  }
+
+  .dropdown table {
+    border-left: solid 1px;
+    color: gray;
+  }
+
+  .dropdown table td {
+    font-size: 0.7rem;
+  }
+
+  .featured {
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+
+  .news-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .news-img img {
+    flex-shrink: 0;
+    min-width: 100%;
+    padding: 0;
+  
+  }
+
+  .main-page {
+    display: block;
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .stories {
+    display: block;
+    min-width: 100%;
+    padding: 0;
+    min-width: 100%;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+  }
+
+  .stories:first-child {
+    margin-top: 8rem;
+  }
+
+  .stories h2 {
+    text-align: center;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .news-brief {
+    padding: 0.6rem;
+  }
+
+  .news-info-sm * {
+    padding: 0;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+  }
+
+  .side-news {
+    padding: 0;
+  }
+
+  .pop-story {
+    align-content: center;
+    padding-left: 3rem;
+  }
+
+  .signup {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin: 0.3rem;
+    padding-top: 0.3rem;
+    margin-top: 0.3rem;
+    height: 130px;
+  }
+
+  .signup form {
+    padding-top: 0.5rem;
+  }
+
+  .heavy-rotation {
+    display: none;
+  }
+
+  .footer {
+    background-color: #222222;
+    margin-top: 3rem;
+    height: 175px;
+    margin: 0;
+    min-width: 100%;
+    padding-bottom: 1.2rem;
+    padding-right: 0;
+    margin-rigth: 0;
+  }
+  
+  .sub-footer {
+    width: 80%;
+    min-width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer a:hover {
+    color: #FF5254;
+  }
+  
+  .footer-external-links {
+    display: flex;
+  }
+  
+  .linksA i {
+    color: #ffff;
+    margin-top: 2rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    padding: 0rem;
+    padding-right: 0.5rem;
+  }
+  
+  .linksB {
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+  .linksB a {
+    text-decoration: none;
+    color: #ffff;
+    align-content: right;
+  }
+  
+
+  .footer-site-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    padding-right: 0.5rem;
+  }
+  
+  .footer-p {
+    color: #C4C4C4;
+    font-size: 0.6rem;
+    padding-top: 0.5rem;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.7rem;
+    color: #ffff;
+    padding-right: 0.5rem;
+    
+  }
+
+  .footer-facebook {
+    background-color: #222222;
+  }
+  
+  .footer-twitter {
+    background-color: #222222;
+  }
+  
+  .footer-instagram {
+    background-color: #222222;
+  }
+  
+  .affils {
+    color: #838383;
+    font-size: 0.7rem;
+  }
+
+  .page-title {
+    margin-top: 2rem;
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+}
